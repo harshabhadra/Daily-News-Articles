@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="News Setting">
+
+    <ListPreference
+       android:defaultValue="newest"
+        android:entries="@array/setting_order_by_labels"
+        android:entryValues="@array/setting_order_by_values"
+        android:key="order_by"
+        android:title="Order By"/>
+</PreferenceScreen>

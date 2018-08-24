@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="setting_order_by_labels">
+        <item>Newest Arrival</item>
+        <item>Popular</item>
+    </string-array>
+
+    <string-array name="setting_order_by_values">
+        <item>publishedAt</item>
+        <item>popularity</item>
+    </string-array>
+
+
+</resources>
